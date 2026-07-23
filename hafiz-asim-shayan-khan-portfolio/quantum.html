@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quantum Computing &amp; Final-Year Research — Hafiz Asim Shayan Khan</title>
+<meta name="description" content="Final-year research project: Quantum SVM vs Classical SVM for email-spam detection, using Qiskit, PCA, and quantum kernel methods.">
+<meta name="author" content="Hafiz Asim Shayan Khan">
+<meta name="theme-color" content="#070b14">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Quantum Computing &amp; Final-Year Research — Hafiz Asim Shayan Khan">
+<meta property="og:description" content="Final-year research project: Quantum SVM vs Classical SVM for email-spam detection, using Qiskit, PCA, and quantum kernel methods.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Quantum Computing &amp; Final-Year Research — Hafiz Asim Shayan Khan">
+<meta name="twitter:description" content="Final-year research project: Quantum SVM vs Classical SVM for email-spam detection, using Qiskit, PCA, and quantum kernel methods.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html" aria-label="Hafiz Asim Shayan Khan — home">
+      <span class="mark" aria-hidden="true">AK</span>
+      <span class="who">Hafiz Asim Shayan Khan<small>Security Ops · Network Eng</small></span>
+    </a>
+    <nav class="nav-links" id="navlinks" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="networking.html">Networking</a>
+      <a href="cybersecurity.html">Cybersecurity</a>
+      <a href="cloud.html">Cloud</a>
+      <a href="ai-ml.html">AI &amp; ML</a>
+      <a href="quantum.html" class="active">Quantum / FYP</a>
+      <a href="certifications.html">Certifications</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn cyan" href="Hafiz_Asim_Shayan_Khan_Resume.pdf" download>Résumé ↓</a>
+      <a class="btn solid" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=shahyankhan886@gmail.com&amp;su=Opportunity%20for%20Hafiz%20Asim%20Shayan%20Khan" target="_blank" rel="noopener">Email me</a>
+      <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero">
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">Home</a> <span>/</span> <span>Quantum / FYP</span></div>
+    <h1>Quantum Computing &amp; <span class="ac">Final-Year Research</span></h1>
+    <p class="lead">My BS Computer Science capstone: can a quantum support vector machine beat a classical one at detecting spam email?</p>
+    <div class="pill-row"><span class="pill">Final-Year Project</span><span class="pill">QSVM</span><span class="pill">Qiskit</span><span class="pill">PCA</span><span class="pill">Research</span></div>
+  </div>
+  <div class="ph-ico" aria-hidden="true">⚛</div>
+</section>
+<section>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag"><span class="sec-no">§ 01</span><span class="eyebrow">Final-Year Project</span></div>
+      <h2>QSVM vs Classical SVM for Email-Spam Detection.</h2>
+      <p>A controlled comparison of quantum and classical kernel methods on the same classification task.</p>
+    </div>
+
+    <article class="pcard feat reveal" style="margin-bottom:22px">
+      <div class="ptag"><span class="idx">FYP</span> Quantum Machine Learning · Research</div>
+      <h3>The research question</h3>
+      <p class="pdesc">Quantum machine learning promises richer feature spaces through quantum kernels —
+      but does that translate into measurably better classification on a real, messy security problem?
+      I built both a <b>Quantum SVM (QSVM)</b> and a <b>Classical SVM</b> for email-spam detection and
+      compared them under identical data conditions.</p>
+      <div class="pfind"><b>The constraint that shapes everything</b>Current quantum hardware and
+      simulators support only a small number of qubits, so high-dimensional text features can't be
+      encoded directly. <b>PCA</b> becomes essential — reducing features to fit the qubit budget while
+      preserving as much signal as possible.</div>
+      <div class="chips"><span class="chip">Python</span><span class="chip">Qiskit</span><span class="chip">QSVM</span><span class="chip">Quantum Kernels</span><span class="chip">Scikit-Learn</span><span class="chip">PCA</span><span class="chip">NLTK</span><span class="chip">TF-IDF</span></div>
+      <div class="proofs"><a class="proof git" href="https://github.com/Asim223/QSVM-vs-SVM-for-Email-Spam-Detection" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>QSVM-vs-SVM-for-Email-Spam-Detection ↗</a></div>
+    </article>
+
+    <div class="fyp-grid">
+      <div class="fyp-block reveal">
+        <h3><span class="fn">01</span> Methodology</h3>
+        <ul>
+          <li>Email corpus preprocessing — tokenisation, stop-word removal, and vectorisation of message text.</li>
+          <li><b>PCA dimensionality reduction</b> to compress features into a qubit-feasible space.</li>
+          <li>Quantum feature mapping — encoding classical data into quantum states to compute a quantum kernel.</li>
+          <li>Classical SVM trained on identical reduced features as the control.</li>
+          <li>Comparison across accuracy, precision, recall, and training cost.</li>
+        </ul>
+      </div>
+      <div class="fyp-block reveal">
+        <h3><span class="fn">02</span> Why it matters for security</h3>
+        <ul>
+          <li>Spam and phishing detection is a <b>frontline security control</b> — small accuracy gains matter at scale.</li>
+          <li>Tests whether quantum kernels offer real advantage or just novelty on practical data.</li>
+          <li>Probes where <b>AI reliability breaks down</b> in threat-detection contexts.</li>
+          <li>Builds intuition for post-quantum thinking in security architecture.</li>
+        </ul>
+      </div>
+      <div class="fyp-block reveal fyp-span">
+        <h3><span class="fn">03</span> What I took away</h3>
+        <p>The interesting result isn't a headline number — it's understanding the <b>trade-off surface</b>:
+        where PCA compression costs more accuracy than the quantum kernel gains back, how simulator
+        limitations bound the experiment, and why honest baselines matter more than impressive claims.
+        The same discipline shows up in my threat-intel work, where I caught a data-leakage artefact
+        inflating an F1 score from 0.27 to 0.90.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag"><span class="sec-no">§ 02</span><span class="eyebrow">Foundations</span></div>
+      <h2>Quantum computing coursework.</h2>
+      <p>The theory behind the project.</p>
+    </div>
+    <div class="grid-3">
+      <article class="pcard reveal">
+        <div class="ptag">Module 01</div>
+        <h3>Mathematical Foundations &amp; Quantum Mechanics</h3>
+        <p class="pdesc">Complex numbers, matrix operations, and linear transformations — the mathematics
+        underpinning qubits, superposition, and entanglement.</p>
+      </article>
+      <article class="pcard reveal">
+        <div class="ptag">Module 02</div>
+        <h3>Python Programming for Quantum Computing</h3>
+        <p class="pdesc">Building quantum circuits and running them on simulators and real quantum
+        hardware using <b>Python</b> and Qiskit.</p>
+      </article>
+      <article class="pcard reveal">
+        <div class="ptag">Module 03</div>
+        <h3>Qiskit &amp; Advanced Algorithms</h3>
+        <p class="pdesc">Quantum algorithms including <b>Bernstein-Vazirani, Grover's, and Shor's</b> —
+        both the theory and hands-on implementation.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag"><span class="sec-no">§ 03</span><span class="eyebrow">Credentials</span></div>
+      <h2>Quantum certification.</h2>
+      <p>Click the certificate name to view it.</p>
+    </div>
+    <div class="cert-list">
+        <article class="certc reveal" data-cert="assets/certificates/quantum-computing-complete-course.jpg" data-title="The Complete Quantum Computing Course for Beginners">
+          <span class="cc-ico" aria-hidden="true">QC</span>
+          <div class="cc-body">
+            <button class="cc-name" type="button">The Complete Quantum Computing Course for Beginners</button>
+            <span class="cc-meta">Packt · Coursera Specialization (3 courses) &middot; Nov 16, 2025</span>
+            <div class="cc-links">
+              <button class="mini view-cert" type="button">&#9636; View certificate</button>
+              
+              <a class="mini pdf" href="assets/certificates-pdf/quantum-computing-complete-course.pdf" target="_blank" rel="noopener" download>&#10515; PDF</a>
+            </div>
+          </div>
+        </article>
+    </div>
+  </div>
+</section>
+<section id="contact" aria-labelledby="cta-h">
+  <div class="wrap">
+    <div class="contact-box reveal">
+      <div class="contact-inner">
+        <div>
+          <div class="avail"><span class="live" aria-hidden="true"></span>AVAILABLE FOR SOC · RED TEAM · NETWORK ROLES</div>
+          <h2 id="cta-h">Interested in the research?</h2>
+          <p>Happy to discuss the methodology, results, or quantum machine learning generally.</p>
+          <div class="hero-cta" style="margin-bottom:0">
+            <a class="btn solid" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=shahyankhan886@gmail.com&amp;su=Opportunity%20for%20Hafiz%20Asim%20Shayan%20Khan" target="_blank" rel="noopener">Email me</a>
+            <a class="btn cyan" href="Hafiz_Asim_Shayan_Khan_Resume.pdf" download>Résumé ↓</a>
+            <a class="btn" href="https://www.linkedin.com/in/hafiz-asim-shayan-khan-111a962a4/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+        <div class="clist">
+          <a class="crow" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=shahyankhan886@gmail.com&amp;su=Opportunity%20for%20Hafiz%20Asim%20Shayan%20Khan" target="_blank" rel="noopener"><span class="ci" aria-hidden="true">@</span><span class="cv"><small>Email</small><span>shahyankhan886@gmail.com</span></span></a>
+          <a class="crow" href="tel:+923105945021"><span class="ci" aria-hidden="true">☏</span><span class="cv"><small>Phone</small><span>+92 310 5945021</span></span></a>
+          <a class="crow" href="https://github.com/Asim223" target="_blank" rel="noopener"><span class="ci" aria-hidden="true">⌥</span><span class="cv"><small>GitHub</small><span>github.com/Asim223</span></span></a>
+          <a class="crow" href="https://www.linkedin.com/in/hafiz-asim-shayan-khan-111a962a4/" target="_blank" rel="noopener"><span class="ci" aria-hidden="true">in</span><span class="cv"><small>LinkedIn</small><span>hafiz-asim-shayan-khan</span></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-inner">
+      <div class="fb">© 2026 <b>Hafiz Asim Shayan Khan</b> · Cybersecurity &amp; Network Engineer</div>
+      <div class="footer-contact">
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=shahyankhan886@gmail.com&amp;su=Opportunity%20for%20Hafiz%20Asim%20Shayan%20Khan" target="_blank" rel="noopener">✉ shahyankhan886@gmail.com</a>
+        <a href="https://www.linkedin.com/in/hafiz-asim-shayan-khan-111a962a4/" target="_blank" rel="noopener">in LinkedIn ↗</a>
+        <a href="https://github.com/Asim223" target="_blank" rel="noopener">⌥ GitHub ↗</a>
+      </div>
+      <a class="top-link" href="#main">↑ Top</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Certificate viewer">
+  <div class="lb-in">
+    <button class="lb-x" id="lbClose" aria-label="Close">✕</button>
+    <div class="lb-imgwrap"><img class="lb-img" id="lbImg" src="" alt="Certificate"></div>
+    <div class="lb-bar">
+      <span class="lb-cap" id="lbCap"></span>
+      <div class="lb-tabs">
+        <button id="tabCert" class="on">Certificate</button>
+        <button id="tabBadge">Badge</button>
+      </div>
+      <a class="lb-open" id="lbOpen" href="" target="_blank" rel="noopener">Open full size ↗</a>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
